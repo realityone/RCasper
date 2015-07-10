@@ -1,0 +1,107 @@
+.blog-logo-custom {
+    margin: 0 auto;
+    -webkit-animation: fade-in-down 0.9s;
+    animation: fade-in-down 0.9s;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.blog-logo-custom img {
+    height: 130px;
+    width: 130px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: -webkit-transform 300ms;
+    -moz-transition: -moz-transform 300ms;
+    transition: transform 300ms;
+}
+
+.post-blog-logo {
+    -webkit-animation: fade-in-down 0.9s;
+    animation: fade-in-down 0.9s;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.post-blog-logo img {
+    height: 50px;
+    -webkit-transition: -webkit-transform 300ms;
+    -moz-transition: -moz-transform 300ms;
+    transition: transform 300ms;
+}
+
+.blog-logo-custom img:hover,
+.post-blog-logo img:hover {
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.page-title-custom {
+    color: #F0F0F0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.page-title-custom:hover {
+    color: #FFFFFF;
+}
+
+.nav, .nav-opened .menu-button {
+    background: #2D3642;
+    border-color: #2D3642;
+}
+
+.nav li a,
+.subscribe-button {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.subscribe-button {
+    background-color: #E0E0E0;
+}
+
+.subscribe-button:hover {
+    background-color: #FFFFFF;
+}
+
+.nav li a:hover {
+    color: #FB6978;
+}
+
+.back-button {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    height: 38px;
+    padding: 0 15px;
+    border-style: solid;
+    border-width: 1px;
+    opacity: 1;
+    color: #bfc8cd;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 35px;
+    white-space: nowrap;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+}
+
+.back-button:before {
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 6px;
+    position: relative;
+    top: 1px;
+}
+
+.back-button:hover {
+    background: #fff;
+}
