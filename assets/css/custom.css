@@ -2,10 +2,6 @@
 
 .blog-logo-custom {
     margin: 0 auto;
-    -webkit-animation: fade-in-down 0.9s;
-    animation: fade-in-down 0.9s;
-    -webkit-animation-delay: 0.1s;
-    animation-delay: 0.1s;
 }
 
 .blog-logo-custom img {
@@ -14,10 +10,20 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    -webkit-transition: -webkit-transform 300ms;
-    -moz-transition: -moz-transform 300ms;
-    transition: transform 300ms;
+    -webkit-animation: fade-in-down 0.9s;
+    animation: fade-in-down 0.9s;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
 }
+
+.blog-logo-custom img, .post-blog-logo img,
+.page-title-custom, .nav li a,
+.subscribe-button {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
 
 .post-blog-logo {
     -webkit-animation: fade-in-down 0.9s;
@@ -28,13 +34,12 @@
 
 .post-blog-logo img {
     height: 50px;
-    -webkit-transition: -webkit-transform 300ms;
-    -moz-transition: -moz-transform 300ms;
-    transition: transform 300ms;
+    opacity: 0.8;
 }
 
 .blog-logo-custom img:hover,
 .post-blog-logo img:hover {
+    opacity: 1;
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
     transform: rotate(15deg);
@@ -43,9 +48,6 @@
 .page-title-custom {
     color: #F0F0F0;
     font-family: 'Dancing Script', cursive;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
 }
 
 .page-title-custom:hover {
@@ -55,13 +57,6 @@
 .nav, .nav-opened .menu-button {
     background: #2D3642;
     border-color: #2D3642;
-}
-
-.nav li a,
-.subscribe-button {
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
 }
 
 .subscribe-button {
