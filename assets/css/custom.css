@@ -105,3 +105,10 @@
 .back-button:hover {
     background: #fff;
 }
+
+@media only screen and (max-width: 900px) {
+    .blog-logo-custom img {
+        height: 100px;
+        width: 100px;
+    }
+}
