@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script);
 
+.main-header .inner {
+    margin: 2% auto 2%;
+}
+
 .blog-logo-custom {
     margin: 0 auto;
 }
