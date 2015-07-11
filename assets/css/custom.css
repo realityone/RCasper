@@ -65,11 +65,11 @@
 }
 
 .subscribe-button {
-    background-color: #E0E0E0;
+    background-color: #FFFFFF;
 }
 
 .subscribe-button:hover {
-    background-color: #FFFFFF;
+    background-color: #E0E0E0;
 }
 
 .nav li a:hover {
