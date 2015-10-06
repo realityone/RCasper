@@ -58,6 +58,10 @@
     color: #FFFFFF;
 }
 
+.page-description, body{
+    font-family: 'PingFang SC', 'Verdana', 'Helvetica Neue', 'Microsoft Yahei', sans-serif;
+}
+
 .nav, .nav-opened .menu-button {
     background: #2D3642;
     border-color: #2D3642;
